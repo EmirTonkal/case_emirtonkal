@@ -1,0 +1,69 @@
+{
+	"message": "hello i18n !!",
+	"nav": {
+		"login": "Login",
+		"contactus": "Contact Us",
+		"home": "Home Page",
+		"favorites": "Favorites",
+		"logout": "Logout",
+		"thema": "Thema"
+	},
+	"contactUs": {
+		"contactUs": "Contact Us",
+		"name": "Name",
+		"email": "Email",
+		"password": "Password",
+		"phoneNumber": "Phone Number",
+		"country": "Country",
+		"message": "Message",
+		"welcomeToScorp": "Welcome To Scorp!",
+		"favorites": "Favorites",
+		"contact": "Contact",
+		"logout": "Logout",
+		"home": "Home",
+		"search": "Search...",
+		"send": "Send",
+		"login": "Login",
+		"theme": "Theme",
+		"emailFormat": "Please Enter Your Email Address In The Correct Format.",
+		"phoneFormat": "Please Enter Your Phone Number In The Correct Format. (Ex: 555 555 55 55)",
+		"info": "Please Enter Your Information Completely.",
+		"close": "Close"
+	},
+	"login": {
+		"loginToScorp": "Login to Scorp",
+		"name": "Name",
+		"email": "Email",
+		"password": "Password",
+		"notaMemberYet": "Not a member yet?",
+		"signUpNow": "Sign up now",
+		"areYouReadyToJoinUs": "Are you ready to join us?",
+		"allYou": "All you have to do is fill in the following files.",
+		"login": "Login",
+		"createScorpAccount": "Create Scorp Account",
+		"signUp": "Sign Up",
+		"whyScorp": "Why Scorp?",
+		"error": "Incorrect or Missing Username and Password",
+		"registerMessage": "Registration Successful",
+		"close": "Close",
+		"passwordRequire": "Password is required",
+		"emailRequire": "Email is required",
+		"emailformat": "Please enter email in correct format",
+		"hey": "Hi!",
+		"require": "Please fill in the relevant boxes."
+	},
+	"languageSwitcher": {
+		"en": "English",
+		"tr": "Turkish"
+	},
+	"main": {
+		"welcomeToScorp": "Welcome To Scorp!",
+		"favorites": "Favorites",
+		"contact": "Contact",
+		"logout": "Logout",
+		"home": "Home",
+		"search": "Search...",
+		"login": "Login",
+		"theme": "Theme"
+	}
+}

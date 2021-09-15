@@ -1,0 +1,69 @@
+{
+	"message": "merhaba i18n !!",
+	"nav": {
+		"login": "Giriş",
+		"contactUs": "İletişim",
+		"home": "Ana Sayfa",
+		"favorites": "Favoriler",
+		"logout": "Çıkış",
+		"theme": "Tema"
+	},
+	"contactUs": {
+		"contactUs": "Bize Ulaşın",
+		"name": "İsim",
+		"email": "Email",
+		"password": "Şifre",
+		"phoneNumber": "Telefon Numarası",
+		"country": "Ülke",
+		"message": "Mesaj",
+		"welcomeToScorp": "Scorp'a Hoş Geldin!",
+		"favorites": "Favoriler",
+		"contact": "İletişim",
+		"logout": "Çıkış",
+		"home": "Ana Sayfa",
+		"search": "Ara...",
+		"send": "Gönder",
+		"login": "Giriş",
+		"theme": "Tema",
+		"emailFormat": "Lütfen Email Adresinizi Doğru Formatta Giriniz.",
+		"phoneFormat": "Lütfen Email Adresinizi Doğru Formatta Giriniz.(Örn:555 555 55 55)",
+		"info": "Lütfen Bilgileri Eksiksiz Giriniz.",
+		"close": "Kapat"
+	},
+	"login": {
+		"loginToScorp": "Scorp'a Giriş Yap",
+		"name": "İsim",
+		"email": "Email",
+		"password": "Şifre",
+		"notaMemberYet": "Hala Üye Değil Misin?",
+		"signUpNow": "Şimdi Üye Ol",
+		"areYouReadyToJoinUs": "Bize Katılmaya Hazır mısın?",
+		"allYou": "Tek yapman gereken yandaki bilgileri eksiksiz doldurmak.",
+		"login": "Giriş Yap",
+		"createScorpAccount": "Scorp Hesabı Oluştur",
+		"signUp": "Üye Ol",
+		"whyScorp": "Neden Scorp?",
+		"error": "Yanlış veya Eksik Kullanıcı Adı ve Şifre",
+		"registerMessage": "Kayıt Başarılı",
+		"close": "Kapat",
+		"passwordRequire": "Lütfen Şifre Giriniz",
+		"emailRequire": "Lütfen Email Giriniz",
+		"emailformat": "Lütfen Email'i Doğru Formatta Giriniz",
+		"hey": "Hey!",
+		"require": "Lütfen İlgili Kutucukları Doldurunuz."
+	},
+	"languageSwitcher": {
+		"en": "İngilizce",
+		"tr": "Türkçe"
+	},
+	"main": {
+		"welcomeToScorp": "Scorp'a Hoş Geldin!",
+		"favorites": "Favoriler",
+		"contact": "İletişim",
+		"logout": "Çıkış",
+		"home": "Ana Sayfa",
+		"search": "Ara...",
+		"login": "Giriş",
+		"theme": "Tema"
+	}
+}
