@@ -1,6 +1,5 @@
 # case_emirtonkal
 
-
 ## Project setup
 
 ```
@@ -40,3 +39,11 @@ Login panel hazırlanırken backend koduna başvurulmadı ve state management il
 #
 
 "i18n" dil paketi kullanılarak senkronize çeviri aktif edildi.
+
+##
+
+"Language Switcher" güncellendi.
+
+##
+
+"Bize Ulaşın" sayfası gerekli eksiklikleri tamamlandı.
