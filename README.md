@@ -50,4 +50,4 @@ Login panel hazırlanırken backend koduna başvurulmadı ve state management il
 
 ##
 
-"Bize Ulaşın" sayfası gerekli düzeltmeler sağlandı.
+"Bize Ulaşın" sayfası gerekli düzeltmeler sağlandı. 
