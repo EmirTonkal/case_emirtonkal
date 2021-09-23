@@ -39,3 +39,15 @@ Login panel hazırlanırken backend koduna başvurulmadı ve state management il
 #
 
 "i18n" dil paketi kullanılarak senkronize çeviri aktif edildi.
+
+##
+
+"Language Switcher" güncellendi.
+
+##
+
+"Language Switcher" mobil entegrasyonu düzenlendi.
+
+##
+
+"Bize Ulaşın" sayfası gerekli düzeltmeler sağlandı. 
