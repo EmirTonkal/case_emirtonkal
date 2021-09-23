@@ -91,21 +91,22 @@
 												<h1 class="text-center display-1">
 													{{ $t("login.hey") }}
 												</h1>
-												<h5 class="text-center mt-5">
+												<h5 class="text-center ">
 													{{ $t("login.notaMemberYet") }}
 												</h5>
 											</v-card-text>
-											<div class="text-center mt-5">
+											<div class="text-center ">
 												<v-btn rounded outlined dark @click="step++"
 													>{{ $t("login.signUpNow") }}
 													<v-icon class="ml-2">mdi-arrow-right</v-icon>
 												</v-btn>
-												<div style="margin-top:40%">
+												<div>
 													<language-switcher
 														align="center"
 														text="center"
-														class="mx-5 my-5"
+														class="mx-5 mt-12"
 													></language-switcher>
+
 													<div style="clear:both">
 														<v-btn
 															class="mx-5 mb-3"
@@ -113,12 +114,22 @@
 															rounded
 															outlined
 															dark
+															to="/contactus"
 														>
-															<v-icon color="#de2228" class="mr-2"
+															<v-icon class="mr-2" color="#de2228"
 																>mdi-heart</v-icon
 															>
-															{{ $t("login.whyScorp") }}</v-btn
+															{{ $t("login.contactUs") }}</v-btn
 														>
+													</div>
+													<div class="d-inline-flex justify-content-center">
+														<v-switch
+															v-model="theme"
+															:label="$t('main.theme')"
+															color="#de2228"
+															hide-details
+															class="ml-2"
+														></v-switch>
 													</div>
 												</div>
 											</div>
@@ -250,10 +261,12 @@ export default {
 	name: "Login",
 	components: { LanguageSwitcher },
 	data: () => ({
+		theme: false,
 		valid: true,
 		step: 1,
 		emailLogin: "",
 		passwordLogin: "",
+		nameRegister: "",
 		emailRegister: "",
 		passwordRegister: "",
 		xhrRequest: false,
@@ -264,11 +277,20 @@ export default {
 		timeout: 2000,
 		timeoutRegister: 2000,
 		passwordRules: [(v) => !!v || ""],
-		emailRules: [(v) => !!v || ""],
+		emailRules: [
+			(v) =>
+				/.+@.+\..+/.test(v) ||
+				"Please Enter Your Email Address In The Correct Format.",
+		],
 		nameRules: [(v) => !!v || ""],
 	}),
 	props: {
 		source: String,
+	},
+	watch: {
+		theme(next) {
+			this.$vuetify.theme.dark = next;
+		},
 	},
 	methods: {
 		validate() {

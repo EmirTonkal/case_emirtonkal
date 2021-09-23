@@ -44,13 +44,13 @@
 							<v-icon>mdi-cancel</v-icon>
 						</v-btn>
 
-						<v-switch
+						<!-- <v-switch
 							v-model="theme"
 							:label="$t('main.theme')"
 							color="#de2228"
 							hide-details
 							class="ml-2"
-						></v-switch>
+						></v-switch> -->
 					</v-list>
 				</v-menu>
 			</v-app-bar>
@@ -63,13 +63,6 @@
 								<v-icon>mdi-home</v-icon>
 							</v-list-item-icon>
 							<v-list-item-title>{{ $t("main.home") }}</v-list-item-title>
-						</v-list-item>
-
-						<v-list-item to="/contactus">
-							<v-list-item-icon>
-								<v-icon>mdi-chat-outline</v-icon>
-							</v-list-item-icon>
-							<v-list-item-title>{{ $t("main.contact") }}</v-list-item-title>
 						</v-list-item>
 					</v-list-item-group>
 				</v-list>

@@ -28,7 +28,13 @@
 		"emailFormat": "Please Enter Your Email Address In The Correct Format.",
 		"phoneFormat": "Please Enter Your Phone Number In The Correct Format. (Ex: 555 555 55 55)",
 		"info": "Please Enter Your Information Completely.",
-		"close": "Close"
+		"close": "Close",
+		"tr": "Turkey",
+		"ger": "Germany",
+		"fr": "France",
+		"ing": "England",
+		"abd": "ABD",
+		"giveUp": "Give Up"
 	},
 	"login": {
 		"loginToScorp": "Login to Scorp",
@@ -50,7 +56,8 @@
 		"emailRequire": "Email is required",
 		"emailformat": "Please enter email in correct format",
 		"hey": "Hi!",
-		"require": "Please fill in the relevant boxes."
+		"require": "Please fill in the relevant boxes.",
+		"contactUs": "Contact Us"
 	},
 	"languageSwitcher": {
 		"en": "English",

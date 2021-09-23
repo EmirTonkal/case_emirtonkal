@@ -28,7 +28,13 @@
 		"emailFormat": "Lütfen Email Adresinizi Doğru Formatta Giriniz.",
 		"phoneFormat": "Lütfen Email Adresinizi Doğru Formatta Giriniz.(Örn:555 555 55 55)",
 		"info": "Lütfen Bilgileri Eksiksiz Giriniz.",
-		"close": "Kapat"
+		"close": "Kapat",
+		"tr": "Türkiye",
+		"ger": "Almanya",
+		"fr": "Fransa",
+		"ing": "İngiltere",
+		"abd": "ABD",
+		"giveUp": "Vazgeç"
 	},
 	"login": {
 		"loginToScorp": "Scorp'a Giriş Yap",
@@ -50,7 +56,8 @@
 		"emailRequire": "Lütfen Email Giriniz",
 		"emailformat": "Lütfen Email'i Doğru Formatta Giriniz",
 		"hey": "Hey!",
-		"require": "Lütfen İlgili Kutucukları Doldurunuz."
+		"require": "Lütfen İlgili Kutucukları Doldurunuz.",
+		"contactUs": "Bize Ulaşın"
 	},
 	"languageSwitcher": {
 		"en": "İngilizce",
