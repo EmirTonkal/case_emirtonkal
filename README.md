@@ -29,25 +29,24 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 #
-
-Login panelden "admin" "admin" ile giriş yapılabilir veya register panelden yeni bir üyelik oluşturulabilir.
-
-#
-
-Login panel hazırlanırken backend koduna başvurulmadı ve state management ile yönlendirme yapıldı.
+You can log in with "admin" "admin" from the login panel or a new registration can be created from the registration panel.
 
 #
 
-"i18n" dil paketi kullanılarak senkronize çeviri aktif edildi.
+The backend was not referenced in the input panel. I used state management
+
+#
+
+"i18n" language pack system configuration active.
 
 ##
 
-"Language Switcher" güncellendi.
+"Language Switcher" is updated.
 
 ##
 
-"Language Switcher" mobil entegrasyonu düzenlendi.
+"Language Switcher" mobile organize is updated.
 
-##
+###
 
-"Bize Ulaşın" sayfası gerekli düzeltmeler sağlandı. 
+Fixed the "Contact Us" page.
