@@ -39,19 +39,19 @@ The backend was not referenced in the input panel. I used state management
 
 "i18n" language pack system configuration active.
 
-##
+#
 
 "Language Switcher" is updated.
 
-##
+#
 
 "Language Switcher" mobile organize is updated.
 
-###
+#
 
 Fixed the "Contact Us" page. 
 
-###
+#
 
 Fixed the "Login" page.
 
