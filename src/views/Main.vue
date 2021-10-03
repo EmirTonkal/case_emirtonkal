@@ -98,7 +98,7 @@
 >
 
 <script>
-import LanguageSwitcher from "./LanguageSwitcher.vue";
+import LanguageSwitcher from "../components/LanguageSwitcher.vue";
 
 export default {
 	data: () => ({

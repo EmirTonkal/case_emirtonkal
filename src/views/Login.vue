@@ -253,7 +253,7 @@
 <script>
 import Vue from "vue";
 import VueRouter from "vue-router";
-import LanguageSwitcher from "./LanguageSwitcher.vue";
+import LanguageSwitcher from "../components/LanguageSwitcher.vue";
 
 Vue.use(VueRouter);
 

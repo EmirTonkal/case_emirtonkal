@@ -1,8 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Main from "../components/Main.vue";
-import Login from "../components/Login.vue";
-import ContactUs from "../components/ContactUs.vue";
+import Main from "../views/Main.vue";
+import Login from "../views/Login.vue";
+import ContactUs from "../views/ContactUs.vue";
 
 Vue.use(VueRouter);
 

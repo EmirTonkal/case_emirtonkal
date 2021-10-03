@@ -38,5 +38,12 @@ export default {
 			],
 		};
 	},
+	methods: {
+		onLanguageSelect(lang) {
+			this.selectedLanguage = lang;
+			localStorage.dbLanguage = lang.code;
+			this.refreshData();
+		},
+	},
 };
 </script>
