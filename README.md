@@ -29,11 +29,11 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 #
-You can login with "admin" "admin" from the login panel or a new registration can be created from the registration panel.
+You can login with "admin" "admin" from the login panel or a new registration can be created from the registration page.
 
 #
 
-The backend was not referenced in the input panel. I used state management
+The backend was not referenced in the input page. I used state management
 
 #
 
