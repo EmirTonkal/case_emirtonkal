@@ -29,7 +29,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 #
-You can log in with "admin" "admin" from the login panel or a new registration can be created from the registration panel.
+You can login with "admin" "admin" from the login panel or a new registration can be created from the registration panel.
 
 #
 
